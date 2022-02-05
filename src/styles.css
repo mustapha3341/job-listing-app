@@ -16,3 +16,34 @@
     --fw-700: 700;
     --ff-base: 'Spartan', sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--clr-neutral-bg);
+    font-size: 15px;
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    min-height: 140px;
+    background: url('./assets/bg-header-mobile.svg');
+    background-color: var(--clr-primary);
+}
+
+.app__container {
+    width: 80%;
+    max-width: var(--break-point-desktop);
+    height: 100%;
+    margin-inline: auto;
+}

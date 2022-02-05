@@ -1,7 +1,13 @@
+import Job from '../Job/Job';
+import './joblist.styles.css';
+
 const JobList = () => {
     return (
-        <div>
-            <p>Job Listing</p>
+        <div className="job__list-container">
+            <Job />
+            <Job />
+            <Job />
+            <Job />
         </div>
     );
 };

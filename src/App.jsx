@@ -1,7 +1,12 @@
+import JobList from './components/JobList/JobList';
+
 const App = () => {
     return (
-        <div>
-            <h1>Hello World</h1>
+        <div className="app">
+          <div className="header"></div>
+            <div className="app__container">
+                <JobList />
+            </div>
         </div>
     );
 };
