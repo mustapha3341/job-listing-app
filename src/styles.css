@@ -1,0 +1,18 @@
+:root {
+    /* Breakpoints */
+    --break-point-mobile: 375px;
+    --break-point-desktop: 1440px;
+
+    /* Colors */
+    --clr-primary: hsl(180, 29%, 50%);
+    --clr-neutral-bg: hsl(180, 52%, 96%);
+    --clr-neutral-filter-tabs: hsl(180, 31%, 95%);
+    --clr-neutral-dark-grayish-cyan: hsl(180, 8%, 52%);
+    --clr-neutral-very-dark-grayish-cyan: hsl(180, 14%, 20%);
+
+    /* Typography */
+    --fs-base: 15px;
+    --fw-500: 500;
+    --fw-700: 700;
+    --ff-base: 'Spartan', sans-serif;
+}
